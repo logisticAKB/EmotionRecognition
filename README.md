@@ -1,4 +1,4 @@
-# Show your expression
+# Show your expression (syrex v1.0)
 
 README coming soon... :)
 
