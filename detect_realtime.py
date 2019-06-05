@@ -1,4 +1,5 @@
 import cv2
+from time import time
 import numpy as np
 from keras.models import model_from_json
 from argparse import ArgumentParser
@@ -35,8 +36,17 @@ if __name__ == '__main__':
 
     font = cv2.FONT_ITALIC  # FONT_HERSHEY_SIMPLEX
 
+    n_frames = 120
+    i = 1
+    last_time = time()
     video_capture = cv2.VideoCapture(0)
     while True:
+        if i % 120 == 0:
+            sec = time() - last_time
+            last_time = time()
+            print('fps: {0}'.format(n_frames / sec))
+        i += 1
+
         ret, frame = video_capture.read()
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1)
