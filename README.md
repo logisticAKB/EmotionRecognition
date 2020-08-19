@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" alt="sample" height="200px" src="https://github.com/logisticAKB/EmotionRecognition/blob/master/data/example.jpg" />
+<img align="center" alt="sample" src="https://github.com/logisticAKB/EmotionRecognition/blob/master/data/example.jpg" />
 </p>
 
 # EmotionRecognition - Show your expression (syrex)
