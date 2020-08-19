@@ -48,11 +48,11 @@ python3 detect_realtime.py \
     ```
 3. Set train parameters in ```EmotionRecognition/cfg/train.cfg``` file
 4. Run training:
-```bash
-python3 train.py \
-  --data=data/train.csv \
-  --weights_folder=weights/
-```
+    ```bash
+    python3 train.py \
+      --data=data/train.csv \
+      --weights_folder=weights/
+    ```
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
