@@ -1,3 +1,5 @@
+<img alt="sample" height="200px" src="https://github.com/logisticAKB/EmotionRecognition/blob/master/data/example.jpg" />
+
 # EmotionRecognition - Show your expression (syrex)
 
 This is a Python program that detects faces in images/webcam live feed through haarcascade and recognizes emotion using Convolutional Neural Network.
