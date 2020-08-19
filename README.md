@@ -1,3 +1,7 @@
+<p align="center">
+<img align="center" alt="sample" src="https://github.com/logisticAKB/EmotionRecognition/blob/master/data/example.jpg" />
+</p>
+
 # EmotionRecognition - Show your expression (syrex)
 
 This is a Python program that detects faces in images/webcam live feed through haarcascade and recognizes emotion using Convolutional Neural Network.
@@ -44,11 +48,11 @@ python3 detect_realtime.py \
     ```
 3. Set train parameters in ```EmotionRecognition/cfg/train.cfg``` file
 4. Run training:
-```bash
-python3 train.py \
-  --data=data/train.csv \
-  --weights_folder=weights/
-```
+    ```bash
+    python3 train.py \
+      --data=data/train.csv \
+      --weights_folder=weights/
+    ```
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
