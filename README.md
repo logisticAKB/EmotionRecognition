@@ -1,4 +1,4 @@
-<img alt="sample" height="200px" src="https://github.com/logisticAKB/EmotionRecognition/blob/master/data/example.jpg" />
+<img align="center" alt="sample" height="200px" src="https://github.com/logisticAKB/EmotionRecognition/blob/master/data/example.jpg" />
 
 # EmotionRecognition - Show your expression (syrex)
 
